@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body{
+			background-color: #f5f5f5;
+		}
+		h1{
+			color: green;
+		}
+		.person{
+			color: red;
+			font-weight: bold;
+		}
+		.list{
+			border: 1px solid red;
+			border-radius: 15px;
+			margin: 10px 0;
+		}
+		.list a{
+			text-decoration: none;
+			font-size: 1.3em;
+		}
+		.list li.retake a{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Recommendation letter</h1>
+	<div class="article">
+	Hello <span class="person">Mr. Jones</span><br/>
+	Below are lessons that you are supposed to study
+	</div>
+	<div class="list">
+		<ul>
+		    <li><a href="#">Java</a></li>
+		    <li><a href="#">Math</a></li>
+		    <li class="retake"><a href="#">Linear Algebra</a></li>
+		</ul>
+	</div>
+	<a href="mailto:admission@sdu.edu.kz">Contact us</a>
+</body>
+</html>
