@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="js3.js" defer></script>
+</head>
+<body>
+	<form action="task11.php" method="POST">
+		<select id="cars" style="margin-bottom: 10px;">
+			<option>Select car</option>
+		</select>
+		<table border="1" cellspacing="0">
+			<tr><td><label>Maker:</label></td>
+				<td>
+					<select id="makerCars" name="maker">
+						<option>Select maker of car</option>
+					</select>
+				</td>
+			</tr>
+			<tr><td><label>Year:</label></td>
+				<td>
+					<select id="yearCars" name="year">
+						<option>Select year of car</option>		
+					</select>
+				</td>
+			</tr>
+			<tr><td><label>Model:</label></td>
+				<td><input type="text" name="model" id="modelCars"></td></tr>
+			<tr><td><label>Engine:</label></td>
+				<td>
+					<input type="radio" name="engine" value="petroleum">Petroleum
+					<input type="radio" name="engine" value="gas">Gas
+					<input type="radio" name="engine" value="diesel">Diesel
+				</td>
+			</tr>
+			<tr><td><label>Price:</label></td>
+				<td><input type="text" name="price" id="priceCars"></td></tr>
+			<tr><td><label>Additional:</label></td>
+				<td>
+					<input type="checkbox" name="additional1" id="add1">tax payed<br>
+					<input type="checkbox" name="additional2" id="add2">technical check passed<br>
+					<input type="checkbox" name="additional3" id="add3">does not require investemt<br>
+				</td>
+			</tr>
+		</table>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+</html>
